@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../../../public/img/Logo.png";
 import Link from "next/link";
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false)
   const onButtonClick = () => {
     // using Java Script method to get PDF file
     fetch('cv.pdf').then(response => {
@@ -23,7 +24,7 @@ const Header = () => {
           <img src={Logo.src} className="shrink-0 w-4 h-4" />
           <div className="hidden sm:block font-[700] text-base">F4reaL</div>
         </Link>
-        <div className="flex gap-2 sm:gap-8 font-[400] text-base text-cadet-blue">
+        <div className="hidden sm:flex gap-2 sm:gap-8 font-[400] text-base text-cadet-blue">
           <Link href={"/"} className="hover:font-[500] hover:text-white">
             <span className="text-lavender">#</span>
             <span className="">home</span>
@@ -45,6 +46,11 @@ const Header = () => {
             <span className="">download cv</span>
           </button>
 
+        </div>
+        <div className={`flex flex-col sm:hidden ${isOpen?"open":""}`} id="humberger" onClick={()=> setIsOpen(!isOpen)}>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     </div>
