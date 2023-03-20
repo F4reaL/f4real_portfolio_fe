@@ -5,8 +5,9 @@ import Contact from "@/components/container/Home/Contact";
 import ProjectList from "@/components/container/Home/ProjectList";
 import Skills from "@/components/container/Home/Skills";
 import Story from "@/components/container/Home/Story";
-
+import Link from "next/link";
 export default function Home() {
+  
   return (
     <div>
       <Banner />
@@ -22,6 +23,7 @@ export default function Home() {
         <div className="max-w-[600px] mx-auto">
           <ContactsForm />
         </div>
+
       </div>
     </div>
   );
