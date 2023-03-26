@@ -17,7 +17,7 @@ const InputComponent = ({ type, placeholder, value, setValue, name, required }) 
         <textarea
           ref={textArea}
           placeholder={placeholder}
-          className="max-h-[240px] overflow-auto outline-none bg-transparent border border-cadet-blue font-[400] text base w-full p-2 resize-none"
+          className="max-h-[240px] overflow-auto outline-none bg-transparent border border-cadet-blue font-[400] text base w-full p-2 resize-none focus:border-lavender"
           rows={4}
           value={value}
           onChange={typeMessage}
@@ -27,7 +27,7 @@ const InputComponent = ({ type, placeholder, value, setValue, name, required }) 
       ) : (
         <input
           placeholder={placeholder}
-          className="outline-none bg-transparent border border-cadet-blue font-[400] text base w-full p-2"
+          className="outline-none bg-transparent border border-cadet-blue font-[400] text base w-full p-2 focus:border-lavender"
           value={value}
           onChange={handleInputChange}
           name={name}

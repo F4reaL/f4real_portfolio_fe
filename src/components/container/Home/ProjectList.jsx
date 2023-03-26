@@ -1,13 +1,9 @@
 import ProjectCard from "@/components/common/ProjectCard";
 import React from "react";
-import PLayee from "../../../../public/img/playee.png";
-import PLayee2 from "../../../../public/img/playee-2.png";
-import ProX from "../../../../public/img/prox.png";
-import Gamoni from "../../../../public/img/gamoni.png";
+
 import ImgViewAll from "../../../../public/img/viewall.png";
 import {projects} from '../../../contants/projects'
 import Link from "next/link";
-const ImgUrl = [Gamoni.src, PLayee.src, PLayee2.src, ProX.src];
 const ProjectList = () => {
   return (
     <div className="mt-[74px]">
@@ -26,8 +22,8 @@ const ProjectList = () => {
         </Link>
       </div>
       <div className="mt-12 grid grid-cols-2 lg:grid-cols-3 gap-4">
-        {projects.map((project, index) => (
-          <ProjectCard key={index} ImgUrl={ImgUrl[index]} oasOffset={70 * index} project={project} />
+        {projects.filter(p => p.type === 'big').map((project, index) => (
+          <ProjectCard key={index} oasOffset={100 * index} project={project} />
         ))}
       </div>
     </div>

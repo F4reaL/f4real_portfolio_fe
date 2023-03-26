@@ -35,9 +35,10 @@ const Skills = () => {
             <div className="border-b p-2 font-[600]">Languages</div>
             <div className=" p-2 flex gap-2 flex-wrap font-[400] text-cadet-blue ">
               <span>JavaScript</span>
+              <span>NodeJS</span>
+              <span>TypeScript</span>
               <span>SQL</span>
               <span>C#</span>
-              <span>TypeScript</span>
             </div>
           </div>
           <div>
@@ -46,6 +47,7 @@ const Skills = () => {
               <div className=" p-2 flex gap-2 flex-wrap font-[400] text-cadet-blue ">
                 <span>FireBase</span>
                 <span>MongoDB</span>
+                <span>MariaDB</span>
               </div>
             </div>
             <div className="border border-cadet-blue text-base">
@@ -56,6 +58,11 @@ const Skills = () => {
                 <span>TailwindCSS</span>
                 <span>SCSS</span>
                 <span>Styled Component</span>
+                <span>Redux</span>
+                <span>RESTful API</span>
+                <span>GraphQL</span>
+                <span>OOP</span>
+                <span> Data structures and Algorithms</span>
               </div>
             </div>
           </div>
@@ -76,6 +83,8 @@ const Skills = () => {
                 <span>Bootstrap</span>
                 <span>NextJs</span>
                 <span>Express</span>
+                <span>Ant Design</span>
+                <span>MUI</span>
               </div>
             </div>
           </div>

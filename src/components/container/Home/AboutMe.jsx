@@ -21,7 +21,7 @@ const AboutMe = () => {
             <span className="font-[600] text-lavender">F4reaL</span>
           </div>
           <div>
-            I’m a self-taught front-end developer based in Kyiv, Ukraine. I can
+            I&apos;m a self-taught front-end developer based in Hanoi, Vietnam. I can
             develop responsive websites from scratch and raise them into modern
             user-friendly web experiences.
           </div>

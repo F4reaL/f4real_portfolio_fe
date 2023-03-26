@@ -10,7 +10,7 @@ const SmallProject = () => {
         <span>small-projects</span>
       </div>
       <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 gap-4">
-      {projects.map((project, index) => (
+      {projects.filter(p => p.type === 'small').map((project, index) => (
           <ProjectCard key={index} oasOffset={70 * index} project={project} />
         ))}
       </div>

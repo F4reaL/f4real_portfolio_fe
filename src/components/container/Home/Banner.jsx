@@ -22,9 +22,9 @@ const Banner = () => {
     <div className="flex gap-5 flex-col-reverse sm:flex-row ">
       <div className="shrink-0 sm:flex-1 flex flex-col h-[310px]" data-aos="fade-up">
         <div className=" mb-8 font-[600] text-[32px] leading-[42px]">
-          <div>Welcome to F4reaL's Portfolio</div>
+          <div>Welcome to F4reaL&apos;s Portfolio</div>
           <div>
-            I'm a{" "}
+            I&apos;m a{" "}
             <span className="text-lavender text-[32px]" ref={elRef}></span>
           </div>
         </div>

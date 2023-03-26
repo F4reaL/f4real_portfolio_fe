@@ -9,12 +9,12 @@ const Introduction = () => {
       <div className="flex  flex-col sm:flex-row gap-10">
         <div className="mt-6 flex-1 text-base text-cadet-blue font-[400] flex flex-col justify-center gap-7">
           <div>
-            Hello, I'm{" "}
+            Hello, I&apos;m{" "}
             <span className="font-[600] text-white">Nguyen Khanh Hoa</span>-
             <span className="font-[600] text-lavender">F4reaL</span>
           </div>
           <div>
-            I’m a self-taught front-end developer based in Kyiv, Ukraine. I can
+            I&apos;m a self-taught front-end developer based in Hanoi, Vietnam. I can
             develop responsive websites from scratch and raise them into modern
             user-friendly web experiences.
           </div>

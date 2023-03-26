@@ -2,7 +2,7 @@ import React from "react";
 import ImgLive from "../../../public/img/live.png";
 import ImgCache from "../../../public/img/cache.png";
 import ButtonComponent from "../common/ButtonComponent";
-const ProjectCard = ({ children, ImgUrl, oasOffset, project }) => {
+const ProjectCard = ({ oasOffset, project }) => {
   return (
     <div
       className="border border-cadet-blue hover:border-lavender hover flex flex-col"
@@ -10,10 +10,10 @@ const ProjectCard = ({ children, ImgUrl, oasOffset, project }) => {
       data-aos-offset={oasOffset}
     >
       <div>
-        {ImgUrl && (
+        {project.imgUrl && (
           <img
-            src={ImgUrl}
-            className="w-full object-fill md:h-[201px] border-b hover:border hover:border-cadet-blue hover:scale-110 duration-100 cursor-pointer"
+            src={project.imgUrl}
+            className="w-full object-fill h-[100px] sm:h-[150px] md:h-[201px] border-b hover:border hover:border-cadet-blue hover:scale-110 duration-100 cursor-pointer"
             alt=""
           />
         )}
@@ -28,26 +28,31 @@ const ProjectCard = ({ children, ImgUrl, oasOffset, project }) => {
           {project.desc}
         </div>
         <div className="flex gap-4 mt-auto ">
-          <a href={project.deployURL} target={"_blank"}>
-            <ButtonComponent classname={"border-lavender hover:bg-lavender-20"}>
-              <div className="hidden sm:block">
-                <img src={ImgLive.src} alt="" />
-              </div>
-              <div className=" sm:hidden">Live</div>
-            </ButtonComponent>
-          </a>
-          <a href="">
-            <ButtonComponent
-              classname={
-                "text-cadet-blue border-cadet-blue hover:bg-cadet-blue-20"
-              }
-            >
-              <div className="hidden sm:block">
-                <img src={ImgCache.src} alt="" />
-              </div>
-              <div className=" sm:hidden">Cache</div>
-            </ButtonComponent>
-          </a>
+          {project.deployURL &&
+            <a href={project.deployURL} target={"_blank"}>
+              <ButtonComponent classname={"border-lavender hover:bg-lavender-20"}>
+                <div className="hidden sm:block">
+                  <img src={ImgLive.src} alt="" />
+                </div>
+                <div className=" sm:hidden">Live</div>
+              </ButtonComponent>
+            </a>
+          }
+          {project.gitUrl &&
+            <a href={project.gitUrl}>
+              <ButtonComponent
+                classname={
+                  "text-cadet-blue border-cadet-blue hover:bg-cadet-blue-20"
+                }
+              >
+                <div className="hidden sm:block">
+                  <img src={ImgCache.src} alt="" />
+                </div>
+                <div className=" sm:hidden">Cache</div>
+              </ButtonComponent>
+            </a>
+          }
+
         </div>
       </div>
     </div>
