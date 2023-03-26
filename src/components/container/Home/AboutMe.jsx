@@ -16,7 +16,7 @@ const AboutMe = () => {
       <div className="flex flex-col sm:flex-row w-full justify-between items-start">
         <div className="mt-6 flex-1 text-base text-cadet-blue font-[400] flex flex-col items-start gap-7">
           <div>
-            Hello, I'm{" "}
+            Hello, I&apos;m{" "}
             <span className="font-[600] text-white">Nguyen Khanh Hoa</span>-
             <span className="font-[600] text-lavender">F4reaL</span>
           </div>
