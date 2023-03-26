@@ -7,7 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import MobileSidebar from "./MobileSidebar";
 
-const index = ({ children }) => {
+const Index = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
@@ -36,4 +36,4 @@ const index = ({ children }) => {
   );
 };
 
-export default index;
+export default Index;
