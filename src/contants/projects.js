@@ -1,6 +1,6 @@
 export const projects = [{
         name: "F4reaL Portfolio",
-        tech: "NextJS TailwindCSS",
+        tech: "NextJS TailwindCSS AOS",
         desc: "My portfolio",
         deployURL: "https://f4real-portfolio.vercel.app/",
         gitUrl: "https://github.com/F4reaL/f4real_portfolio_fe.git",
@@ -8,7 +8,7 @@ export const projects = [{
         type: "big"
     }, {
         name: "Playee - Game Portal",
-        tech: "NextJS TypeScript TailwindCSS Axios Socket",
+        tech: "NextJS TypeScript TailwindCSS Axios Socket NextJS TypeScript TailwindCSS Axios Socket NextJS TypeScript TailwindCSS Axios Socket NextJS TypeScript TailwindCSS Axios Socket NextJS TypeScript TailwindCSS Axios Socket",
         desc: "Minecraft servers hosting",
         deployURL: "https://playee.net",
         gitUrl: "",
@@ -17,8 +17,8 @@ export const projects = [{
     },
     {
         name: "Gamoni",
-        tech: "NextJS TypeScript TailwindCSS Socket",
-        desc: "Minecraft servers hosting",
+        tech: "HTML CSS Javascript jQuery Axios Bootstrap",
+        desc: "Play together, Earner easier",
         deployURL: "https://gamoni.net/",
         gitUrl: "",
         imgUrl: "https://i.ibb.co/PGxfrtB/gamoni.png",
@@ -27,8 +27,8 @@ export const projects = [{
 
     {
         name: "Biso24",
-        tech: "NextJS TypeScript TailwindCSS Socket",
-        desc: "Minecraft servers hosting",
+        tech: "ReactJS CSS react-dnd Axios ",
+        desc: "Financial website with statistical charts and data analysis",
         deployURL: "",
         gitUrl: "",
         imgUrl: "https://i.ibb.co/rd5QVRw/biso.png",
@@ -54,8 +54,8 @@ export const projects = [{
     },
     {
         name: "SignUp Page",
-        tech: "HTML CSS Javascript",
-        desc: "Social Network",
+        tech: "HTML CSS Javascript Formik Yup",
+        desc: "A single page to validate form",
         deployURL: "https://f4real.github.io/SignUp-page/",
         gitUrl: "https://github.com/F4reaL/SignUp-page",
         imgUrl: "https://i.ibb.co/jyMxhjh/signup-page.png",
@@ -64,7 +64,7 @@ export const projects = [{
     {
         name: "My Blog",
         tech: "NextJS TailwindCSS Github_API GraphQL",
-        desc: "Social Network",
+        desc: "Personal page - where shares blogs",
         deployURL: "",
         gitUrl: "https://github.com/F4reaL/myblog_typescript_nextjs.git",
         imgUrl: "https://i.ibb.co/mrsnDQV/myblog.png",
