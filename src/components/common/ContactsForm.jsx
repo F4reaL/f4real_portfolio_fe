@@ -94,7 +94,7 @@ const ContactsForm = () => {
             {isLoading ? "Sending ...":'Send'}
           </ButtonComponent>
           {isSuccess && (
-            <div className="text-green-500 font-[600]">Send Successfully !</div>
+            <div className="text-green-500 font-[600]">Sent Successfully !</div>
           )}
         </div>
       </form>
