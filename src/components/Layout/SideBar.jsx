@@ -3,7 +3,7 @@ import IconGithub from "/public/icon/Github.svg";
 import IconLinkedin from "/public/icon/Linkedin.svg";
 import IconTelegram from "/public/icon/Telegram.svg";
 import IconEmail from "/public/icon/Email.svg";
-import IconFacebook from "/public/icon/FaceBook.svg";
+// import IconFacebook from "/public/icon/FaceBook.svg";
 
 const SideBar = () => {
 
@@ -23,9 +23,9 @@ const SideBar = () => {
         <a href="mailto:f4realisme@gmail.com" target={"_blank"} >
           <img src={IconEmail.src} alt="" className="w-8 h-8 hover:scale-110" />
         </a>
-        <a href="https://www.facebook.com/khanhhoa.d.nguyen/" target={"_blank"} >
+        {/* <a href="https://www.facebook.com/khanhhoa.d.nguyen/" target={"_blank"} >
           <img src={IconFacebook.src} alt="" className="w-6 h-8 hover:scale-110" />
-        </a>
+        </a> */}
       </div>
     </>
   );

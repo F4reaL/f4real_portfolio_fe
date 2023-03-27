@@ -2,7 +2,7 @@ import React from "react";
 import IconLinkedin from "/public/icon/Linkedin.svg";
 import IconTelegram from "/public/icon/Telegram.svg";
 import IconEmail from "/public/icon/Email.svg";
-import IconFacebook from "/public/icon/FaceBook.svg";
+// import IconFacebook from "/public/icon/FaceBook.svg";
 import IconGithub from "/public/icon/Github.svg";
 
 import ContactsForm from "@/components/common/ContactsForm";
@@ -41,10 +41,10 @@ const index = () => {
       </div>
       <div className="flex flex-col sm:flex-row gap-10">
         <div className="flex-1">
-          <a href="https://www.facebook.com/khanhhoa.d.nguyen/" target={"_blank"} className="font-[400] text-cadet-blue flex gap-1 items-center cursor-pointer hover:underline">
+          {/* <a href="https://www.facebook.com/khanhhoa.d.nguyen/" target={"_blank"} className="font-[400] text-cadet-blue flex gap-1 items-center cursor-pointer hover:underline">
             <img src={IconFacebook.src} className="w-8 h-8 p-1 my-0.5" alt="" />
             <span className="mx-2">fb.com/khanhhoa.d.nguyen.3</span>
-          </a>
+          </a> */}
           <a href="https://www.linkedin.com/in/kh%C3%A1nh-h%C3%B2a-nguy%E1%BB%85n-6a86aa244/" target={"_blank"} className="font-[400] text-cadet-blue flex gap-1 items-center cursor-pointer hover:underline">
             <img src={IconLinkedin.src} className="w-8 h-8" alt="" />
             <span className="mx-2">Linkedin: F4reaL</span>

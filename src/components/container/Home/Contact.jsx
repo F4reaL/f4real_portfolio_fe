@@ -2,7 +2,7 @@ import React from "react";
 import IconLinkedin from "/public/icon/Linkedin.svg";
 import IconTelegram from "/public/icon/Telegram.svg";
 import IconEmail from "/public/icon/Email.svg";
-import IconFacebook from "/public/icon/FaceBook.svg";
+// import IconFacebook from "/public/icon/FaceBook.svg";
 import ImgViewAll from '/public/img/viewall.png'
 import ContactsForm from "@/components/common/ContactsForm";
 import Link from "next/link";
@@ -34,10 +34,10 @@ const Contact = () => {
               <img src={IconEmail.src} className="w-8 h-8" alt="" />
               f4realisme@gmail.com
             </a>
-            <a href="https://www.facebook.com/khanhhoa.d.nguyen/" target={"_blank"} className="font-[400] text-cadet-blue flex gap-1 items-center cursor-pointer hover:underline">
+            {/* <a href="https://www.facebook.com/khanhhoa.d.nguyen/" target={"_blank"} className="font-[400] text-cadet-blue flex gap-1 items-center cursor-pointer hover:underline">
               <img src={IconFacebook.src} className="w-8 h-8 p-1 my-0.5" alt="" />
               fb.com/khanhhoa.d.nguyen.3
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/kh%C3%A1nh-h%C3%B2a-nguy%E1%BB%85n-6a86aa244/" target={"_blank"} className="font-[400] text-cadet-blue flex gap-1 items-center cursor-pointer hover:underline">
               <img src={IconLinkedin.src} className="w-8 h-8" alt="" />
               F4reaL
