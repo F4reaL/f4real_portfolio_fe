@@ -12,11 +12,8 @@ const Skills = () => {
           <hr className="ml-1 sm:ml-4  w-[30px] sm:w-[120px] lap1366:w-[239px] border-lavender " />
         </div>
         <Link href={"/about-me"}>
-          <img
-            src={ImgViewAll.src}
-            className="cursor-pointer hover:border-b pb-1"
-            alt=""
-          />
+          <img src={ImgViewAll.src} className='hidden sm:inline-block cursor-pointer hover:border-b pb-1' alt="" />
+          <span className="sm:hidden  text-lavender">View all</span>
         </Link>
       </div>
 

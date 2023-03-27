@@ -2,7 +2,7 @@ import ProjectCard from "@/components/common/ProjectCard";
 import React from "react";
 
 import ImgViewAll from "/public/img/viewall.png";
-import {projects} from '@/contants/projects'
+import { projects } from '@/contants/projects'
 import Link from "next/link";
 const ProjectList = () => {
   return (
@@ -14,11 +14,8 @@ const ProjectList = () => {
           <hr className="ml-1 sm:ml-4  w-[30px] sm:w-[120px] lap1366:w-[511px] border-lavender " />
         </div>
         <Link href={"/works"}>
-          <img
-            src={ImgViewAll.src}
-            className="cursor-pointer hover:border-b pb-1"
-            alt=""
-          />
+          <img src={ImgViewAll.src} className='hidden sm:inline-block cursor-pointer hover:border-b pb-1' alt="" />
+          <span className="sm:hidden  text-lavender">View all</span>
         </Link>
       </div>
       <div className="mt-12 grid grid-cols-2 lg:grid-cols-3 gap-4">
