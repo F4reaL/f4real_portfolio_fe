@@ -1,6 +1,6 @@
 import React from "react";
-import ImgLive from "../../../public/img/live.png";
-import ImgCache from "../../../public/img/cache.png";
+import ImgLive from "/public/img/live.png";
+import ImgCache from "/public/img/cache.png";
 import ButtonComponent from "../common/ButtonComponent";
 const ProjectCard = ({ oasOffset, project }) => {
   return (

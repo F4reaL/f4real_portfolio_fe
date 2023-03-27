@@ -1,5 +1,5 @@
 import React from "react";
-import IconTear from '../../../../public/img/tear-double.png'
+import IconTear from '/public/img/tear-double.png'
 
 const Story = () => {
   

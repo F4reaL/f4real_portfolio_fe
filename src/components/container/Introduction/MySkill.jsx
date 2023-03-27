@@ -1,6 +1,6 @@
 import React from "react";
-import ImageDots from "../../../../public/img/img-dots.png";
-import ImgViewAll from "../../../../public/img/viewall.png";
+import ImageDots from "/public/img/img-dots.png";
+import ImgViewAll from "/public/img/viewall.png";
 
 const MySkill = () => {
   return (

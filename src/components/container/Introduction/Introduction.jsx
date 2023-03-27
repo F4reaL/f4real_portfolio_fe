@@ -1,6 +1,5 @@
 import React from "react";
-import BlackMan2 from "../../../../public/img/black-man2.png";
-import ImgViewAll from "../../../../public/img/viewall.png";
+import BlackMan2 from "/public/img/black-man2.png";
 const Introduction = () => {
   return (
     <div className="mt-[74px]">

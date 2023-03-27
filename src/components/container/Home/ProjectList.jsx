@@ -1,8 +1,8 @@
 import ProjectCard from "@/components/common/ProjectCard";
 import React from "react";
 
-import ImgViewAll from "../../../../public/img/viewall.png";
-import {projects} from '../../../contants/projects'
+import ImgViewAll from "/public/img/viewall.png";
+import {projects} from '@/contants/projects'
 import Link from "next/link";
 const ProjectList = () => {
   return (

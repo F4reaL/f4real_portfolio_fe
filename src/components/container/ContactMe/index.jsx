@@ -1,9 +1,9 @@
 import React from "react";
-import IconLinkedin from "../../../../public/icon/Linkedin.svg";
-import IconTelegram from "../../../../public/icon/Telegram.svg";
-import IconEmail from "../../../../public/icon/Email.svg";
-import IconFacebook from "../../../../public/icon/FaceBook.svg";
-import IconGithub from "../../../../public/icon/Github.svg";
+import IconLinkedin from "/public/icon/Linkedin.svg";
+import IconTelegram from "/public/icon/Telegram.svg";
+import IconEmail from "/public/icon/Email.svg";
+import IconFacebook from "/public/icon/FaceBook.svg";
+import IconGithub from "/public/icon/Github.svg";
 
 import ContactsForm from "@/components/common/ContactsForm";
 import ButtonComponent from "@/components/common/ButtonComponent";

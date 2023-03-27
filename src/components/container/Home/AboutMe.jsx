@@ -1,7 +1,7 @@
 import ButtonComponent from "@/components/common/ButtonComponent";
 import React from "react";
-import BlackMan2 from "../../../../public/img/black-man2.png";
-import ImgReadMore from "../../../../public/img/readmore.png";
+import BlackMan2 from "/public/img/black-man2.png";
+import ImgReadMore from "/public/img/readmore.png";
 import Link from "next/link";
 const AboutMe = () => {
   return (

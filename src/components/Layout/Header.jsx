@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../../public/img/Logo.png";
+import Logo from "/public/img/Logo.png";
 import Link from "next/link";
 const Header = ({setIsOpen, isOpen}) => {
   const onButtonClick = () => {

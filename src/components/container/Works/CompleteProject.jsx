@@ -1,6 +1,6 @@
 import ProjectCard from '@/components/common/ProjectCard'
 import React from 'react'
-import { projects } from '../../../contants/projects'
+import { projects } from '@/contants/projects'
 
 
 const CompleteProject = () => {

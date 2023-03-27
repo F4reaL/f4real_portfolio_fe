@@ -1,9 +1,8 @@
 import React from "react";
-import Logo from "../../../public/img/Logo.png";
-import IconGithub from "../../../public/icon/Github.svg";
-import IconEmail from "../../../public/icon/Email.svg";
-import IconTelegram from "../../../public/icon/Telegram.svg";
-import Link from "next/link";
+import Logo from "/public/img/Logo.png";
+import IconGithub from "/public/icon/Github.svg";
+import IconEmail from "/public/icon/Email.svg";
+import IconTelegram from "/public/icon/Telegram.svg";
 
 const Bottom = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import ButtonComponent from "../../common/ButtonComponent";
-import BlackMan from "../../../../public/img/black-man.png";
+import BlackMan from "/public/img/black-man.png";
 import { Link as LinkScroll } from "react-scroll";
 import Typed from "typed.js";
 

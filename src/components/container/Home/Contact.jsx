@@ -1,9 +1,9 @@
 import React from "react";
-import IconLinkedin from "../../../../public/icon/Linkedin.svg";
-import IconTelegram from "../../../../public/icon/Telegram.svg";
-import IconEmail from "../../../../public/icon/Email.svg";
-import IconFacebook from "../../../../public/icon/FaceBook.svg";
-import ImgViewAll from '../../../../public/img/viewall.png'
+import IconLinkedin from "/public/icon/Linkedin.svg";
+import IconTelegram from "/public/icon/Telegram.svg";
+import IconEmail from "/public/icon/Email.svg";
+import IconFacebook from "/public/icon/FaceBook.svg";
+import ImgViewAll from '/public/img/viewall.png'
 import ContactsForm from "@/components/common/ContactsForm";
 import Link from "next/link";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "@/components/common/ProjectCard";
-import {projects} from '../../../contants/projects'
+import {projects} from '@/contants/projects'
 
 const SmallProject = () => {
   return (
