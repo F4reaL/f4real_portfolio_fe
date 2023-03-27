@@ -15,6 +15,16 @@ export const projects = [{
         imgUrl: "https://i.ibb.co/f9yk84x/playee.png",
         type: "big"
     },
+    
+    {
+        name: "Gamoni",
+        tech: "HTML CSS Javascript jQuery Axios Bootstrap",
+        desc: "Play together, Earner easier",
+        deployURL: "https://gamoni.net/",
+        gitUrl: "",
+        imgUrl: "https://i.ibb.co/PGxfrtB/gamoni.png",
+        type: "big"
+    },
     {
         name: "AI Printerest Generator",
         tech: "OpenAI ReactJS TailwindCSS NodeJS ExpressJS MongoDB Cloudinary",
@@ -25,16 +35,6 @@ export const projects = [{
         type: "big",
         isDeveloping: true
     },
-    {
-        name: "Gamoni",
-        tech: "HTML CSS Javascript jQuery Axios Bootstrap",
-        desc: "Play together, Earner easier",
-        deployURL: "https://gamoni.net/",
-        gitUrl: "",
-        imgUrl: "https://i.ibb.co/PGxfrtB/gamoni.png",
-        type: "big"
-    },
-
     {
         name: "Biso24",
         tech: "ReactJS CSS react-dnd Axios ",
