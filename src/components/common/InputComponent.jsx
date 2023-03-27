@@ -26,7 +26,7 @@ const InputComponent = ({ type, placeholder, value, setValue, name, required }) 
         ></textarea>
       ) : (
         <input
-          type={type === "email" && type}
+          type={type === "email" ? type:""}
           placeholder={placeholder}
           className="outline-none bg-transparent border border-cadet-blue font-[400] text base w-full p-2 focus:border-lavender"
           value={value}

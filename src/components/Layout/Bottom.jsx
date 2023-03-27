@@ -6,7 +6,7 @@ import IconTelegram from "/public/icon/Telegram.svg";
 
 const Bottom = () => {
   return (
-    <div className="relative  w-full mt-14 lg:mt-[145px] border-t border-cadet-blue py-8 bg-main-bg">
+    <div className="relative z-[10] w-full mt-14 lg:mt-[145px] border-t border-cadet-blue py-8 bg-main-bg">
       <div className=" flex justify-between items-center sm:items-end pb-2 px-5 sm:px-15 lg:px-[100px] lap1366:px-[170px] w-full ">
         <div>
           <div className="flex gap-6">
