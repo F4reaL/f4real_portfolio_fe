@@ -53,7 +53,15 @@ const ProjectCard = ({ oasOffset, project }) => {
                 </ButtonComponent>
               </a>
             }
-
+            {project.isDeveloping &&
+              <ButtonComponent
+              classname={
+                "text-harvest-gold border-cadet-blue hover:bg-cadet-blue-20"
+              }
+            >
+              <div className=" font-bold text-[17px]">Developing...</div>
+            </ButtonComponent>
+            }
           </div>
         </div>
       </div>

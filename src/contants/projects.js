@@ -16,6 +16,16 @@ export const projects = [{
         type: "big"
     },
     {
+        name: "AI Printerest Generator",
+        tech: "OpenAI ReactJS TailwindCSS NodeJS ExpressJS MongoDB Cloudinary",
+        desc: "Using OpenAI to generate image based on a user-entered description",
+        deployURL: "",
+        gitUrl: "",
+        imgUrl: "https://i.ibb.co/Fs32T8D/ai-printest-generator.png",
+        type: "big",
+        isDeveloping: true
+    },
+    {
         name: "Gamoni",
         tech: "HTML CSS Javascript jQuery Axios Bootstrap",
         desc: "Play together, Earner easier",
