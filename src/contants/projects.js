@@ -2,7 +2,7 @@ export const projects = [{
         name: "F4reaL Portfolio",
         tech: "NextJS TailwindCSS",
         desc: "My portfolio",
-        deployURL: "https://f4real-portfolio-k49xmafby-f4real.vercel.app/",
+        deployURL: "https://f4real-portfolio.vercel.app/",
         gitUrl: "https://github.com/F4reaL/f4real_portfolio_fe.git",
         imgUrl: "https://i.ibb.co/j59JjTw/f4real-portfolio.png",
         type: "big"
