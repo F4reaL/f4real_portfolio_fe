@@ -1,4 +1,4 @@
-import React, { useRef, useState, memo } from "react";
+import React, { useRef, memo } from "react";
 const InputComponent = ({ type, placeholder, value, setValue, name, required }) => {
   const textArea = useRef(null);
   const typeMessage = (e) => {
@@ -26,6 +26,7 @@ const InputComponent = ({ type, placeholder, value, setValue, name, required }) 
         ></textarea>
       ) : (
         <input
+          type={type === "email" && type}
           placeholder={placeholder}
           className="outline-none bg-transparent border border-cadet-blue font-[400] text base w-full p-2 focus:border-lavender"
           value={value}

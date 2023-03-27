@@ -47,6 +47,7 @@ const ContactsForm = () => {
     setPhone("");
     setTitle("");
   };
+
   return (
     <>
       <form
@@ -62,6 +63,7 @@ const ContactsForm = () => {
         />
         <div className="flex w-full gap-4">
           <InputComponent
+            type={"email"}
             placeholder="Email"
             required={true}
             value={email}
@@ -91,7 +93,7 @@ const ContactsForm = () => {
         />
         <div className="flex items-center gap-4">
           <ButtonComponent classname={"border-lavender hover:bg-lavender-20"}>
-            {isLoading ? "Sending ...":'Send'}
+            {isLoading ? "Sending ..." : 'Send'}
           </ButtonComponent>
           {isSuccess && (
             <div className="text-green-500 font-[600]">Sent Successfully !</div>
