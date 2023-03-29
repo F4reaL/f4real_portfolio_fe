@@ -59,7 +59,7 @@ const ProjectCard = ({ oasOffset, project }) => {
                 "text-harvest-gold border-cadet-blue hover:bg-cadet-blue-20"
               }
             >
-              <div className=" font-bold text-[17px]">Developing...</div>
+              <div className=" sm:font-bold text-[17px]">Developing<span className="hidden sm:inline-block">...</span></div>
             </ButtonComponent>
             }
           </div>
