@@ -8,7 +8,7 @@ const Banner = () => {
   const elRef = useRef(null);
   useEffect(() => {
     const typed = new Typed(elRef.current, {
-      strings: ["web developer", "font-end developer"],
+      strings: ["web developer", "front-end developer"],
       typeSpeed: 120,
       loop: true,
     });
