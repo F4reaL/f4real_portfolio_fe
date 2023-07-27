@@ -9,7 +9,6 @@ import MobileSidebar from "./MobileSidebar";
 
 const Index = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false)
-
   useEffect(() => {
     AOS.init()
   },[]);
