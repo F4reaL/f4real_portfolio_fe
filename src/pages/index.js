@@ -5,19 +5,14 @@ import ProjectList from "@/components/container/Home/ProjectList";
 import Skills from "@/components/container/Home/Skills";
 import Story from "@/components/container/Home/Story";
 export default function Home() {
-  
   return (
     <div>
       <Banner />
-      <div className="">
-        <Story />
-        <ProjectList />
-        <Skills />
-        <AboutMe />
-        <Contact />
-        
-
-      </div>
+      <Story />
+      <ProjectList />
+      <Skills />
+      <AboutMe />
+      <Contact />
     </div>
   );
 }
